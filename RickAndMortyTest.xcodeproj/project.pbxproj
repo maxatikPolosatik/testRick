@@ -27,6 +27,7 @@
 		1D53DCBE2D3135A600355280 /* UIImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DCBD2D3135A600355280 /* UIImageView + Extension.swift */; };
 		1D53DCC02D313AB500355280 /* PlayEpisodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DCBF2D313AB500355280 /* PlayEpisodeView.swift */; };
 		1D53DCC32D313AF000355280 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DCC22D313AF000355280 /* Container.swift */; };
+		1D53DCC52D31403600355280 /* CharacterStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D53DCC42D31403600355280 /* CharacterStatusView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		1D53DCBD2D3135A600355280 /* UIImageView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extension.swift"; sourceTree = "<group>"; };
 		1D53DCBF2D313AB500355280 /* PlayEpisodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayEpisodeView.swift; sourceTree = "<group>"; };
 		1D53DCC22D313AF000355280 /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		1D53DCC42D31403600355280 /* CharacterStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterStatusView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				1D53DC922D311F8A00355280 /* CharactersViewInput.swift */,
 				1D53DC942D311F9B00355280 /* CharactersViewOutput.swift */,
 				1D53DCBF2D313AB500355280 /* PlayEpisodeView.swift */,
+				1D53DCC42D31403600355280 /* CharacterStatusView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				1D53DCAF2D31267200355280 /* CharactersApiClient.swift in Sources */,
 				1D53DCB52D3130EA00355280 /* CharacterTableViewCell.swift in Sources */,
 				1D53DC9A2D31210700355280 /* CharactersAssembly.swift in Sources */,
+				1D53DCC52D31403600355280 /* CharacterStatusView.swift in Sources */,
 				1D53DCC32D313AF000355280 /* Container.swift in Sources */,
 				1D53DCC02D313AB500355280 /* PlayEpisodeView.swift in Sources */,
 				1D53DC932D311F8A00355280 /* CharactersViewInput.swift in Sources */,

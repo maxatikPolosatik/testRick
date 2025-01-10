@@ -12,6 +12,7 @@ final class CharactersViewController: UIViewController, CharactersViewInput {
         tableView.dataSource = self
         tableView.delegate = self
         tableView.separatorStyle = .none
+        tableView.estimatedRowHeight = UITableView.automaticDimension
         return tableView
     }()
     
@@ -19,6 +20,7 @@ final class CharactersViewController: UIViewController, CharactersViewInput {
         super.viewDidLoad()
         setup()
         output?.viewIsReady()
+        title = "Characters"
         view.backgroundColor = .white
     }
     
