@@ -74,7 +74,7 @@ final class CharacterTableViewCell: UITableViewCell {
         characterImage.snp.makeConstraints { make in
             make.left.equalToSuperview().inset(16)
             make.size.equalTo(120)
-            make.top.bottom.equalToSuperview().inset(4)
+            make.top.bottom.equalToSuperview().inset(16)
         }
         nameLabel.snp.makeConstraints { make in
             make.left.equalTo(characterImage.snp.right).offset(8)

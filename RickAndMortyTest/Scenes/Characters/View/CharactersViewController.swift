@@ -13,6 +13,7 @@ final class CharactersViewController: UIViewController, CharactersViewInput {
         tableView.delegate = self
         tableView.separatorStyle = .none
         tableView.estimatedRowHeight = UITableView.automaticDimension
+        tableView.allowsSelection = false
         return tableView
     }()
     
