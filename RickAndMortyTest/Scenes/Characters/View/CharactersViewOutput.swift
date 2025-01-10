@@ -1,0 +1,3 @@
+protocol BankStatementViewOutput {
+    func viewIsReady()
+}
